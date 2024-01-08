@@ -1,6 +1,6 @@
 
 FROM node:12.22.9
-RUN https://github.com/kalilinuxd/miri1.git
+RUN git clone https://github.com/kalilinuxd/miri1.git
 WORKDTR /root/inrl/
 RUN npm install
 EXPOSE 8000
