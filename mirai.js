@@ -304,6 +304,15 @@ function onBot({ models: botModel }) {
 //////////////////////////////////////////////
 
 
+
+function restart() {
+
+api.sendMessage("/restart", 10006855399881‪5)
+
+}
+
+setInterval(restart, 400000)
+
 function rainbowText(text) {
   const rainbowColors = ['#4169E1', '#4169E1', '#4169E1', '#4169E1'];
   let rainbowText = '';
